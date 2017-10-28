@@ -8,19 +8,7 @@
 2. 取得表达示的操作符与操作数；
 3. 判断操作符的优先级并根据优先级依次计算
 ## 总体流程图
-```flow
-st=>start: Start
-e=>end
-op1=>operation: 输入计算表达式
-cond1=>condition: 表达式是否
-符合规范要求
-op2=>operation: 计算表达式
-cond2=>condition: 是否重新计
-算新的表达式
-st->op1->cond1(yes)->op2->cond2(no,)->e
-cond1(no)->op1
-cond2(yes,right)->op1
-```
+![](index_files/c33b81f9-0462-4818-9164-7abf6a4a8ff2.png)
 
 # 详细设计
 ## 表达式是否符合规范要求
